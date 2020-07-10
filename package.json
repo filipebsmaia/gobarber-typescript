@@ -13,7 +13,6 @@
   "dependencies": {
     "@types/mongodb": "^3.5.25",
     "@types/redis": "^2.8.22",
-    "@types/styled-components": "^5.1.0",
     "aws-sdk": "^2.709.0",
     "bcryptjs": "^2.4.3",
     "celebrate": "^12.1.1",
