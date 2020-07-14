@@ -9,3 +9,6 @@ coverage
 build/
 .env
 ormconfig.json
+
+yarn.lock
+yarn-error.log
