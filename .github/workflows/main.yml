@@ -15,6 +15,20 @@ jobs:
       with:
         node-version: 12.x
         
+    # Yarn cache
+    - name: Get yarn cache directory path
+      id: yarn-cache-dir-path
+      run: echo "::set-output name=dir::$(yarn cache dir)"
+
+    - uses: actions/cache@v2
+      id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      with:
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
+          
+          
     # Instalar as dependêncis
     - name: Install dependecies
       run: yarn
@@ -23,18 +37,18 @@ jobs:
     - name: Run build
       run: yarn build
       
-    # Copiar a pasta dist pra dentro do Servidor- name: copy file via ssh password
-    - name: Copy dist to Digital Ocean
+    # Copiar código para o servidor
+    - name: Copy dist to server
       uses: appleboy/scp-action@master
       with:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USER }}
         port: ${{ secrets.SSH_PORT }}
         key: ${{ secrets.SSH_KEY }}
-        source: "."
+        source: ".,!node_modules"
         target: "~/app/gobarber-typescript"
       
-    # Subistituir o código existente na pasta "dist" pelo novo código
+  
     # Executar "yarn" no servidor
     # Executar as migrations
     # Reiniciar o servidor node
