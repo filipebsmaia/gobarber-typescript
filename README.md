@@ -101,10 +101,10 @@ Configurando aplicação:
 
 ```sh
   # Clone o repósitorio
-  $ git clone https://github.com/filipebsmaia/gobarber-typescript
+  $ git clone https://github.com/filipebsmaia/gobarber-typescript-backend
 
   ## Instale as dependencias
-  $ cd gobarber-typescript
+  $ cd gobarber-typescript-backend
   $ yarn
   $ yarn typeorm:run
 
