@@ -51,7 +51,7 @@
 
 <p>
 
-> Você pode acessar o frontend dessa aplicação clicando <a href="https://github.com/filipebsmaia/gobarber-typescript-backend">aqui</a> ou o mobile clicando <a href="https://github.com/filipebsmaia/gobarber-typescript-mobile">aqui</a>.
+> Você pode acessar o frontend web dessa aplicação clicando <a href="https://github.com/filipebsmaia/gobarber-typescript-web">aqui</a> ou o mobile clicando <a href="https://github.com/filipebsmaia/gobarber-typescript-mobile">aqui</a>.
 
 </p>
 
