@@ -9,20 +9,20 @@
   <br/>
 
 <!--  Shields -->
-   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/filipebsmaia/gobarber-typescript">
+   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/filipebsmaia/gobarber-typescript-backend">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/filipebsmaia/gobarber-typescript">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/filipebsmaia/gobarber-typescript-backend">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/filipebsmaia/gobarber-typescript">
-  <a href="https://github.com/filipebsmaia/gobarber-typescript/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/filipebsmaia/gobarber-typescript">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/filipebsmaia/gobarber-typescript-backend">
+  <a href="https://github.com/filipebsmaia/gobarber-typescript-backend/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/filipebsmaia/gobarber-typescript-backend">
   </a>
 
-  <a href="https://github.com/filipebsmaia/gobarber-typescript/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/filipebsmaia/gobarber-typescript">
+  <a href="https://github.com/filipebsmaia/gobarber-typescript-backend/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/filipebsmaia/gobarber-typescript-backend">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/filipebsmaia/gobarber-typescript">
+  <img alt="GitHub" src="https://img.shields.io/github/license/filipebsmaia/gobarber-typescript-backend">
 <!--  Shields -->
 
 </div>
@@ -51,7 +51,7 @@
 
 <p>
 
-> Você pode acessar o backend dessa aplicação clicando <a href="https://github.com/filipebsmaia/gobarber-typescript-backend">aqui</a> ou o mobile clicando <a href="https://github.com/filipebsmaia/gobarber-typescript-mobile">aqui</a>.
+> Você pode acessar o frontend dessa aplicação clicando <a href="https://github.com/filipebsmaia/gobarber-typescript-backend">aqui</a> ou o mobile clicando <a href="https://github.com/filipebsmaia/gobarber-typescript-mobile">aqui</a>.
 
 </p>
 
